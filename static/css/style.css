@@ -121,3 +121,20 @@ li{
     padding: 10px; /* Поля вокруг текста */
     width: 100%; /* Ширина слоя */
    }
+
+
+  /* registration-form*/
+
+
+  .has-float-label{
+    position: relative;
+  }
+
+.mybord {
+  background: #FAFAFA;
+  border: 1px solid silver;
+  border-radius: 5px 0px 0px 5px;
+  width: 25px;
+  text-align: center;
+  float: right;
+}
