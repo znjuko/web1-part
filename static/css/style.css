@@ -43,6 +43,13 @@
   max-height: auto;
 }
 
+#unlogged{
+  position: absolute;
+  margin-right: 100px;
+  margin-left: 10px;
+  right: 0%;
+}
+
 
 .inner{
   min-height:900px;
