@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/static//css/style.css">
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
+  <script type="text/javascript" src="/static/js/bootstrap.js"></script>
+  <title>Hello there</title>
+</head>
+<body>
+    <!-- navbaer fixed -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-dark bg-dark mb-3"  id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="/static/img/logo.png" alt="text"  id="logo" ></a>
+            <!-- Search-->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <form class="form-inline my-auto my-lg-0" style="width:500px">
+          <input class="form-control mr-sm-2  w-80" type="search" placeholder="Search" aria-label="Search" style="width:60%;">
+          <button class="btn btn-outline-success my-2 my-sm-0 rounded" type="submit">Search</button>
+        </form>
+
+        <!-- Logged -->
+        <div id="logged-user">
+          <div class="container">
+            <div class="row">
+              <div class="col-4 pt2 pr-0" >
+                <div>
+                  <img src="https://picsum.photos/80" alt="Image Here" id="img-user">
+                </div>
+              </div>
+
+              <div class="col-md p2  my-auto">
+                <div class="row">
+                  <div class="col">
+                    <p class=" m-0 mt-2 text-light">Dr. Pepper</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <p class="m-0"><a href="#" class="text-light text-decoration-none ">settings</a></p>
+                  </div>
+                  <div class="col-sm">
+                    <p class="m-0"><a href="#" class="text-light text-decoration-none ">logout</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- Inner  nonfixed-->
+    <div class="container-fluid inner ">
+      <div class="row">
+        <div class="col-8">
+          <div class="alert alert-success">
+            main
+          </div>
+        </div>
+
+
+
+        <!-- right side fixed -->
+        <div class="col-4">
+
+            <!-- Popular Tegs -->
+            <div class="alert alert-dark bg-light">
+              <h3 class="right-main">Popular Tags</h3>
+              <p><a class="tag1">Tag1</a>
+                 <a class="tag5">Tag2</a>
+                 <a class="tag2">Tag3</a>
+                 <a class="tag5">Tag4</a>
+                 <a class="tag4">Tag5</a>
+                 <a class="tag3">Tag6</a>
+                 <a class="tag2">Tag7</a>
+                 <a class="tag1">Tag8</a>
+                 <a class="tag2">Tag9</a>
+                 <a class="tag5">Tag10</a>
+               </p>
+            </div>
+
+            <hr class="m-0">
+            <!-- Best Members -->
+            <div class="alert alert-dark bg-light">
+            <h3 class="right-main">Best Members</h3>
+            <ul id="topmem">
+              <li><a href="#" class="askme-black_a">Member1</a></li>
+              <li><a href="#" class="askme-black_a">Member2</a></li>
+              <li><a href="#" class="askme-black_a">Member3</a></li>
+              <li><a href="#" class="askme-black_a">member4</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- fixed footer - sticky , fixed -->
+    <footer class="bg-dark sticky-footer">
+      <div class="container text-center text-white">
+            <span> Hello there!</span>
+      </div>
+    </footer>
+
+
+</body>
+</html>
