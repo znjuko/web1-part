@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/static//css/style.css">
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
+  <script type="text/javascript" src="/static/js/bootstrap.js"></script>
+  <title>Hello there</title>
+</head>
+<body>
+    <!-- navbaer fixed -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-dark bg-dark mb-3"  id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="/static/img/logo.png" alt="text"  id="logo" ></a>
+            <!-- Search-->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <form class="form-inline my-auto my-lg-0" style="width:500px">
+          <input class="form-control mr-sm-2  w-75" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 rounded" type="submit">Search</button>
+        </form>
+
+        <!-- unlogged -->
+        <div id="unlogged" >
+
+              <div class="row mx-auto ">
+                <div class="col">
+                  <p class="m-0"><a href="#" class="text-light text-decoration-none ">log in</a></p>
+                </div>
+                <div class="col">
+                  <p class="m-0"><a href="#" class="text-light text-decoration-none ">register</a></p>
+                </div>
+              </div>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- Inner  nonfixed-->
+    <div class="container-fluid inner ">
+      <div class="row">
+        <div class="col-8">
+          <div class="alert">
+            <div class="">
+             <form class="card card-block mx-auto bg-light form-width">
+               <div class="m-2">
+
+                 <legend class="mb-1 text-xs-center">Registration</legend>
+                   <div class="form-group input-group">
+                     <span class="has-float-label">
+                       <label for="first">Login</label>
+                       <input class="form-control" id="first" type="text" placeholder="login"/>
+                     </span>
+                     <span class="has-float-label">
+                       <label for="last">NickName</label>
+                       <input class="form-control" id="last" type="text" placeholder="nickname"/>
+                     </span>
+                   </div>
+
+                   <div class="form-group input-group">
+                     <label for="email" class="col-12 p-0">E-mail</label>
+
+                     <span class=" input-group-addon mybord pt-1">@</span>
+                     <input type="text"  id="email" class="form-control" placeholder="name@example.com" aria-describedby="basic-addon1">
+
+                   </div>
+
+                   <div class="form-group has-float-label">
+                     <label for="password">Password</label>
+                     <input class="form-control" id="password" type="password" placeholder="••••••••"/>
+                   </div>
+                   <div class="form-group has-float-label">
+                     <label for="password">Repeat password</label>
+                     <input class="form-control" id="password" type="password" placeholder="••••••••"/>
+                   </div>
+
+                 <!--     <span class="input-group-addon">@</span>
+                    <input class="form-control" id="email" type="email" placeholder="name@example.com"/>-->
+
+
+                 <div class="text-xs-center">
+                   <button class="btn btn-block btn-success" type="submit">Регистрация</button>
+                 </div>
+               </div>
+
+             </form>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- right side fixed -->
+        <div class="col-4">
+
+            <!-- Popular Tegs -->
+            <div class="alert alert-dark bg-light">
+              <h3 class="right-main">Popular Tags</h3>
+              <p><a class="tag1">Tag1</a>
+                 <a class="tag5">Tag2</a>
+                 <a class="tag2">Tag3</a>
+                 <a class="tag5">Tag4</a>
+                 <a class="tag4">Tag5</a>
+                 <a class="tag3">Tag6</a>
+                 <a class="tag2">Tag7</a>
+                 <a class="tag1">Tag8</a>
+                 <a class="tag2">Tag9</a>
+                 <a class="tag5">Tag10</a>
+               </p>
+            </div>
+
+            <hr class="m-0">
+            <!-- Best Members -->
+            <div class="alert alert-dark bg-light">
+            <h3 class="right-main">Best Members</h3>
+            <ul id="topmem">
+              <li><a href="#" class="askme-black_a">Member1</a></li>
+              <li><a href="#" class="askme-black_a">Member2</a></li>
+              <li><a href="#" class="askme-black_a">Member3</a></li>
+              <li><a href="#" class="askme-black_a">member4</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- fixed footer - sticky , fixed -->
+    <footer class="bg-dark sticky-footer">
+      <div class="container text-center text-white">
+            <span> Hello there!</span>
+      </div>
+    </footer>
+
+
+</body>
+</html>
