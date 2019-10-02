@@ -18,37 +18,23 @@
             <!-- Search-->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <form class="form-inline my-auto my-lg-0" style="width:500px">
-          <input class="form-control mr-sm-2  w-75" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2  w-75" type="search" placeholder="Search" aria-label="Search" >
           <button class="btn btn-outline-success my-2 my-sm-0 rounded" type="submit">Search</button>
         </form>
 
-        <!-- Logged -->
-        <div id="logged-user">
-          <div class="container">
-            <div class="row">
-              <div class="col-4 pt2 pr-0" >
-                <div>
-                  <img src="https://picsum.photos/80" alt="Image Here" id="img-user">
+        <!-- unlogged -->
+        <div id="unlogged" >
+
+              <div class="row mx-auto ">
+                <div class="col">
+                  <p class="m-0"><a href="#" class="text-light text-decoration-none ">log in</a></p>
+                </div>
+                <div class="col">
+                  <p class="m-0"><a href="#" class="text-light text-decoration-none ">register</a></p>
                 </div>
               </div>
 
-              <div class="col-md p2  my-auto">
-                <div class="row">
-                  <div class="col">
-                    <p class=" m-0 mt-2 text-light">Dr. Pepper</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-4">
-                    <p class="m-0"><a href="#" class="text-light text-decoration-none ">settings</a></p>
-                  </div>
-                  <div class="col-sm">
-                    <p class="m-0"><a href="#" class="text-light text-decoration-none ">logout</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
 
       </div>
@@ -59,8 +45,34 @@
     <div class="container-fluid inner ">
       <div class="row">
         <div class="col-8">
-          <div class="alert alert-success">
-            main
+          <div class="alert alert-dark bg-light ml-1">
+            <div class="ml-3">
+              <div class="row">
+                <h2 class="text-success">Log in</h2>
+              </div>
+              <div class="row mt-2">
+                <h5 class="text-danger">wrong password</h5>
+              </div>
+              <div class="row">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+              </div>
+              <div class="row">
+                  <a href="#" class="text-primary mt-3"> create a new account</a>
+              </div>
+            </div>
+
+
           </div>
         </div>
 
